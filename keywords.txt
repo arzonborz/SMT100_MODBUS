@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For SMT100_MODBUS Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SMT100_MODBUS	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+ReadAddress			KEYWORD2
+SetAddress			KEYWORD2
+CheckAddress		KEYWORD2
+ChangeAddress		KEYWORD2
+ReadSMT100			KEYWORD2
+RS485_TRANSEIVER	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WRITE_REG			LITERAL1
+READ_REG			LITERAL1
+ADDRESS_REG			LITERAL1
+COUNTS_REG			LITERAL1
+PERMITTIVITY_REG	LITERAL1
+WATER_CONTENT_REG	LITERAL1
+TEMP_REG			LITERAL1
+ONE16BITS_REG		LITERAL1
+BROADCAST_ID		LITERAL1
+TIMEOUT_SMT100		LITERAL1
+
