@@ -1,0 +1,19 @@
+Counts:
+FD 03 00 03 00 01 60 36
+00 03 02 47 26 37 AE
+
+Permittivity:
+FD 03 00 02 00 01 31 F6
+00 03 02 00 8B C5 E3
+
+Water content:
+FD 03 00 01 00 01 C1 F6
+00 03 02 00 00 85 84
+
+Temp:
+FD 03 00 00 00 01 90 36
+00 03 02 2F CF D9 E0
+
+Set Address to x: (from 0-255)
+FD 06 00 04 00 xx DC 37
+FD 06 00 04 00 xx 1D F7
