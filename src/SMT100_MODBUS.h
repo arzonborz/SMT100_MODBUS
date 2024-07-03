@@ -28,7 +28,13 @@
 
 // general SMT100 ID
 #define BROADCAST_ID      0xFD
-#define TIMEOUT_SMT100	  100
+
+// timeout
+#ifdef ESP32
+	#define TIMEOUT_SMT100	  200
+#else
+	#define TIMEOUT_SMT100	  100
+#endif
 
 class SMT100_MODBUS
 {
